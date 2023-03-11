@@ -8,4 +8,13 @@ In order to compile the program in a linux environment go to the mdu folder and 
 The following section presents different examples of how to run the program.
 
 ## Single file/directory recursively
-  - ./mdu folder
+  - ./mdu filename
+ 
+## Single file/directory in parallel (3 threads)
+  - ./mdu filename -j3
+
+## Multiple files/directories recursively
+  - ./mdu filename1 filename2
+
+## Multiple files/directories in parallel (3 threads)
+  - ./mdu filename1 filename2 -j3
